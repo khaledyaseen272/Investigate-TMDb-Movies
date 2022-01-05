@@ -13,10 +13,15 @@
 - In the columns of budget , revenue , budget_adj and revenue_adj , the are many 0 values and wierd values so i decided to convert 0 values and values less than 1000 to NAN so it will not be taken in statistcis and analysis.
 - I found movies with run time more than 3 hours ! and that is unlogic for movies , but after searching google by thier orginal names i found out these are not movies but series so i dealed with it.
 - I found duplicated orginal names , after searching online it is normal to get more one movie by the same name or may be it another part of the same movie in another year.
-- I found one duplicated row and dropped it .
+- I found one duplicated row and dropped it.
 
 
-## After cleaning the data i started to pose questions and analyze data , here are some results and findings :
+## Explanatory Process
+
+I did the explanatory process with 2 methods. the first one with coding and python visualization libraries (matplotlib and seaborn).In the second method, I decided to export the cleaned data to tableau software where I can do the explanatory process and I got great insights and findings. You can find Tableau dashboards through this link: https://public.tableau.com/app/profile/khaled.yaseen/viz/TMDbMovies/GenresProductionCompanies
+
+
+## Summary of Findings
 
 Finding 1 : movie success don't depend only on budget but there are many other factors .
 
